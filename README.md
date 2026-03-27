@@ -9,7 +9,7 @@
  * Mark tasks as complete
  * Delete tasks
  * Persistent storage using a JSON File
- * Handles missing or empty tasks lists
+ * Handles missing or empty task lists
 
 ## Installation
  1. Clone the repository:
