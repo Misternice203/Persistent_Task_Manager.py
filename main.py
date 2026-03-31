@@ -80,7 +80,7 @@ while True:
         for i, task in enumerate(tasks, start=1):
             print(i, task)
         task_to_delete = int(input("Enter the number of the task you would like to delete: "))
-        if 0 < task_to_delete <= len(tasks):
+        if 1 < task_to_delete <= len(tasks):
             tasks.pop(task_to_delete - 1)
             save_tasks(tasks)
             print(f"Task {task_to_delete}. Deleted successfully!")
